@@ -1,22 +1,224 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <title>Clauberson da Silva Pinheiro</title>
+    
+    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Clauberson da Silva Pinheiro</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Currículo HTML5 Bootstrap>
+    <meta name="author" content="Clauberson Pinheiro">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-6.css">
+</head> 
+
 <body>
-    <h1 style="text-align:center;">Clauberson da Silva Pinheiro</h1>
-    <p>Habilidades: </p>
-    <footer>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
-        crossorigin="anonymous"></script>
-    </footer>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/profile.png" alt="" />
+                <h1 class="name">Clauberson Pinheiro</h1>
+                <h3 class="tagline">Analista de Sistemas Sênior</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: claubersonpinheiro@gmail.com">claubersonpinheiro@gmail.com</a></li>
+                    <li class="phone"><i class="fas fa-phone"></i><a href="tel:(21) 98308 7630">(21)9 8308 7630</a></li>
+                    <!--
+                    <li class="website"><i class="fas fa-globe"></i><a href="#" target="_blank">portfoliosite.com</a></li>
+                    -->
+                    <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/clauberson-pinheiro-714713142/" target="_blank">linkedin.com/in/clauberson-pinheiro</a></li>
+                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/clauberson" target="_blank">github.com/clauberson</a></li>
+                    <!--
+                    <li class="twitter"><i class="fab fa-twitter"></i><a href="#" target="_blank">@twittername</a></li>
+                    -->
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Educação</h2>
+                <div class="item">
+                    <h4 class="degree">Bacharel em Sistemas de Informação</h4>
+                    <h5 class="meta">Universidade Salgado de Oliveira</h5>
+                    <!-- <div class="time">2011 - 2012</div> -->
+                </div><!--//item-->
+                <div class="item">
+                    <h4 class="degree">Pós-graduação em Engenharia de Software</h4>
+                    <h5 class="meta">Pontifícia Universidade Católica</h5>
+                    <!-- <div class="time">2007 - 2011</div> -->
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Linguagens</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Português <span class="lang-desc">(Nativo)</span></li>
+                    <li>Ingles <span class="lang-desc">(Intermediário)</span></li>
+                    <!-- <li>Spanish <span class="lang-desc">(Professional)</span></li> -->
+                </ul>
+            </div><!--//interests-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interesses</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Desenvolvimento de Sistemas</li>
+                    <li>Arquitetura de Sistemas</li>
+                    <li>Aprendizado de Máquina</li>
+                </ul>
+            </div><!--//interests-->
+            
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Resumo Profissional</h2>
+                <div class="summary">
+                    <p>Experiência com análise, desenvolvimento, banco de dados e modelagem de sistemas. Agilidade e capacidade de adaptação a novas situações. Conhecimento das principais tecnologias que norteiam o mercado.</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiencias Profissionais</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Consultor de TI</h3>
+                            <div class="time">02/01/2018 - Presente</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Fornax Consultoria</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Principais atividades exercidas: Análise e desenvolvimento de software.</p>  
+                        <p>Ferramentas utilizadas: Java 8, JavaScript, AngularJS.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Analista de Sistemas Sênior</h3>
+                            <div class="time">21/11/2016 - 29/07/2017</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Persist Solutions</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Principais atividades exercidas: Análise e desenvolvimento de software, definição de padrões e arquitetura, modelagem de sistema, testes automatizados, integração entre sistemas.</p>  
+                        <p>Ferramentas utilizadas: Principais tecnologias Java, Struts 2, Spring MVC, EJB 3, SOA, IBM MQ, PL/SQL, Oracle.</p>
+                        
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Analista de Sistemas Sênior</h3>
+                            <div class="time">03/09/2012 -  31/08/2016</div>
+                        </div><!--//upper-row-->
+                        <div class="company">BRQ IT Service</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Principais atividades exercidas: Análise e desenvolvimento de software, definição de padrões de arquitetura, modelagem de sistema, testes automatizados, uso de metodologias ágeis Kanban/Scrum.</p>  
+                        <p>Principais tecnologias Java, Grails, Git, JavaScript, AngularJS, Node.js, SQL Server, SGBD Oracle e MySql.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+            </section><!--//section-->
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projetos</h2>
+                <div class="intro">
+                    <p>Alguns dos projetos que participei:</p>
+                </div><!--//intro-->
+                <div class="item">
+                    <span class="project-title">Shere.eat</span> - 
+                    <span class="project-tagline">Sistema web / mobile desenvolvido com as tecnologias Node.js, ReactJS, React Native e arquiterura de microserviços.</span> 
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">Frota</span> - 
+                    <span class="project-tagline">Sistema web desenvolvido as tecnologias em Java 8, AngularJS, Bootstrap. </span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">Sipen</span> - 
+                    <span class="project-tagline">Sistema web desenvolvido as tecnologias Grails, JQuery, Bootstrap. </span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">Venda Cartão</span> - 
+                    <span class="project-tagline">Sistema web desenvolvido as tecnologias em Java, Struts 2, Spring MVC, EJB 3, SOA, IBM MQ.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">VIGRES</span> - 
+                    <span class="project-tagline">Sistema web desenvolvido as tecnologias Grails, Dojo Toolkit, highcharts.</span>
+                </div><!--//item-->
+            </section><!--//section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">Java</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                               
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Javascript &amp; jQuery</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                              
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Angular</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS</h3>
+                        <div class="progress level-bar">
+							    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Node.JS</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                  
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">React JS</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+                </div>  
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->
+    </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+                
+                
+        </div><!--//container-->
+    </footer><!--//footer-->
+        
 </body>
-</html>
+</html> 
+
