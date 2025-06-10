@@ -9,3 +9,7 @@ Este repositório abriga a versão web do meu currículo profissional.
 
 Também é possível acessar a página publicada no GitHub Pages em:
 <https://clauberson.github.io/>
+
+## Licença
+
+Distribuído sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
