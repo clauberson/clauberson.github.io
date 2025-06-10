@@ -17,7 +17,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/Users\/Riley\/Sites\/htdocs\/orbit-theme-bs4\/orbit-theme-git\/assets\/css\/orbit-1.css",
+                "oAP": "..\/css\/orbit-1.css",
 		"oF": 6,
 		"oS": 1,
 		"uL": 1
@@ -30,7 +30,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/Users\/Riley\/Sites\/htdocs\/orbit-theme-bs4\/orbit-theme-git\/assets\/css\/orbit-2.css",
+                "oAP": "..\/css\/orbit-2.css",
 		"oF": 6,
 		"oS": 1,
 		"uL": 1
@@ -43,7 +43,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/Users\/Riley\/Sites\/htdocs\/orbit-theme-bs4\/orbit-theme-git\/assets\/css\/orbit-3.css",
+                "oAP": "..\/css\/orbit-3.css",
 		"oF": 6,
 		"oS": 1,
 		"uL": 1
@@ -56,7 +56,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/Users\/Riley\/Sites\/htdocs\/orbit-theme-bs4\/orbit-theme-git\/assets\/css\/orbit-4.css",
+                "oAP": "..\/css\/orbit-4.css",
 		"oF": 6,
 		"oS": 1,
 		"uL": 1
@@ -69,7 +69,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/Users\/Riley\/Sites\/htdocs\/orbit-theme-bs4\/orbit-theme-git\/assets\/css\/orbit-5.css",
+                "oAP": "..\/css\/orbit-5.css",
 		"oF": 6,
 		"oS": 1,
 		"uL": 1
@@ -82,7 +82,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/Users\/Riley\/Sites\/htdocs\/orbit-theme-bs4\/orbit-theme-git\/assets\/css\/orbit-6.css",
+                "oAP": "..\/css\/orbit-6.css",
 		"oF": 6,
 		"oS": 1,
 		"uL": 1
