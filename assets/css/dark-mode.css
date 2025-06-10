@@ -1,0 +1,31 @@
+body.dark-mode {
+    background: #121212;
+    color: #e0e0e0;
+}
+body.dark-mode a {
+    color: #80cbc4;
+}
+body.dark-mode .wrapper,
+body.dark-mode .sidebar-wrapper {
+    background: #333;
+    color: #fff;
+}
+body.dark-mode .main-wrapper {
+    background: #222;
+}
+body.dark-mode .section-title {
+    color: #e0e0e0;
+}
+body.dark-mode .section-title .icon-holder {
+    background: #80cbc4;
+}
+body.dark-mode .skillset .level-bar {
+    background: #555;
+}
+body.dark-mode .skillset .theme-progress-bar {
+    background: #80cbc4;
+}
+body.dark-mode .footer {
+    background: #121212;
+    color: #aaa;
+}

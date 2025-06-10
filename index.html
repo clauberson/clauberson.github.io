@@ -21,9 +21,11 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/orbit-6.css">
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
 </head> 
 
 <body>
+    <button id="dark-mode-toggle" class="btn btn-light" style="position: fixed; top: 10px; right: 10px; z-index: 1000;">Modo Escuro</button>
     <div class="wrapper">
         <div class="sidebar-wrapper">
             <div class="profile-container">
@@ -235,7 +237,23 @@
                 
         </div><!--//container-->
     </footer><!--//footer-->
-        
+
+    <script>
+        (function() {
+            var btn = document.getElementById('dark-mode-toggle');
+            var stored = localStorage.getItem('theme');
+            if (stored === 'dark') {
+                document.body.classList.add('dark-mode');
+                btn.textContent = 'Modo Claro';
+            }
+            btn.addEventListener('click', function() {
+                var isDark = document.body.classList.toggle('dark-mode');
+                btn.textContent = isDark ? 'Modo Claro' : 'Modo Escuro';
+                localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            });
+        })();
+    </script>
+
 </body>
-</html> 
+</html>
 
